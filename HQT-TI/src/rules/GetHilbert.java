@@ -436,7 +436,6 @@ public class GetHilbert {
         boolean result1 = n1.Intersect(x1, y1, x2, y2);
         boolean result3 = n3.Intersect(x1, y1, x2, y2);
         if (result1==true && result3==true){
-            //这个时候是全部都相交
             if (n1.IsLeaf==false || (n1.IsLeaf==true && n1.GtList.size()>0)){
                 ONs.add(child1);
             }
@@ -451,9 +450,7 @@ public class GetHilbert {
             }
         }
         if (result1==false && result3==false){
-            //13都为0的情况，这个时候需要判断2的情况
             if(n2.Intersect(x1, y1, x2, y2)==true){
-                //n2单独相交的情况
                 if (n2.IsLeaf==false || (n2.IsLeaf==true && n2.GtList.size()>0)){
                     ONs.add(child2);
                 }
@@ -474,8 +471,6 @@ public class GetHilbert {
                     ONs.add(child2);
                 }
             }else {
-                //100_
-                //这种情况需要再此进行相交判断
                 if (n4.Intersect(x1, y1, x2, y2)==true){
                     //1001
                     if (n1.IsLeaf==false || (n1.IsLeaf==true && n1.GtList.size()>0)){
