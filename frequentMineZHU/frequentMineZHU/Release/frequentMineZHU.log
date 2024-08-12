@@ -1,0 +1,13 @@
+﻿  buffer.cpp
+  data.cpp
+E:\frequentMineZHU\frequentMineZHU\data.cpp(22,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fpmax.cpp
+  fp_node.cpp
+  fp_tree.cpp
+  fsout.cpp
+E:\frequentMineZHU\frequentMineZHU\fsout.cpp(6,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 61 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  frequentMineZHU.vcxproj -> E:\frequentMineZHU\Release\frequentMineZHU.exe
