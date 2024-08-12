@@ -303,7 +303,7 @@ private void processLoop(int startKey, int endKey, int keywordId, ArrayList[] su
 		}
 		for (int i=0;i<vector.size();i+=2){
 			int MinOid = vector.get(i);
-			int MaxOid = vector.get(i + 1); // 获取该对应的 MaxOid
+			int MaxOid = vector.get(i + 1); 
 			//inikey = endkey;
 			int inikey, endkey ;
 			if (map[MinSizeKeywordId].lowerKey(MinOid) != null) {
