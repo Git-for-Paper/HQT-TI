@@ -49,4 +49,5 @@ The project depends on the following Java libraries:
 1. Generate the association rules file and construct the text index structure.
 2. Create the spatial index structure.
 3. Execute queries on the spatial-textual data.
+
 **Note**: The required dependencies must be downloaded from https://mvnrepository.com/. Additionally, the query set needs to be generated via the appropriate code to meet the query conditions.
