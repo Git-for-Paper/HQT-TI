@@ -6,13 +6,13 @@ HQT-TI is a new spatial text indexing structure that consists of two components:
 
 ## 2. Operating Environment
 
-\- **Processor:** Intel i7-7700 @ 3.60GHz 
+\- **Processor:** Intel i7-14650HX @ 5.20GHz 
 
--**Memory:** 16GB RAM 
+-**Memory:** 48GB RAM 
 
--**Operating System:** Windows 10 
+-**Operating System:** Windows 11 
 
--**IDE:** IntelliJ IDEA 2021 
+-**IDE:** IntelliJ IDEA 2024 
 
 -**JDK:** 1.8
 
@@ -43,5 +43,10 @@ The project depends on the following Java libraries:
 - 2, -86.33677755126953, 33.93464960327148, -74.48815065126954, 37.46647490327148, Milk, Lamb, Fish
 - 3, -85.90482412109375, 32.370516912841794, -74.05619722109375, 35.902342212841795, Salt, Cake, Cookies, Vinegar, Beef 
 - ...
+**Note**: For each query in the query dataset, it is essential to ensure that the frequent keywords (X), total number of keywords (Y), proportion of the query area (P), and the given query conditions are the same.
 
-Note: For each query in the query dataset, it is essential to ensure that the frequent keywords (X), total number of keywords (Y), proportion of the query area (P), and the given query conditions are the same.
+##  5. Code Execution
+1. Generate the association rules file and construct the text index structure.
+2. Create the spatial index structure.
+3. Execute queries on the spatial-textual data.
+**Note**: The required dependencies must be downloaded from https://mvnrepository.com/. Additionally, the query set needs to be generated via the appropriate code to meet the query conditions.
