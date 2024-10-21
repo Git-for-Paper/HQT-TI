@@ -43,6 +43,7 @@ The project depends on the following Java libraries:
 - 2, -86.33677755126953, 33.93464960327148, -74.48815065126954, 37.46647490327148, Milk, Lamb, Fish
 - 3, -85.90482412109375, 32.370516912841794, -74.05619722109375, 35.902342212841795, Salt, Cake, Cookies, Vinegar, Beef 
 - ...
+
 **Note**: For each query in the query dataset, it is essential to ensure that the frequent keywords (X), total number of keywords (Y), proportion of the query area (P), and the given query conditions are the same.
 
 ##  5. Code Execution
